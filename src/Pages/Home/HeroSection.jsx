@@ -10,14 +10,20 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-          Passionate About Crafting Exceptional Websites.
-           
+            Passionate About Crafting Exceptional Websites.
           </p>
         </div>
+        <a
+        href="https://www.instagram.com/ruth_garedew"
+        className="navbar--content"
+        target="_blank"
+        rel="noreferrer"
+      >
         <button className="btn btn-primary">Get In Touch</button>
+        </a>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/about-me.png" alt="Hero Section" />
       </div>
     </section>
   );

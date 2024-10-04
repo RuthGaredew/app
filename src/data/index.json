@@ -33,17 +33,18 @@
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "technology":"",
-      "description": "",
-      "link": "View In Github"
+      "title": "School App",
+      "technology":"React, Express.js, Node.js & CSS",
+      "description": "school managment system ",
+       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Online Examination System",
+      "technology":"React, Express.js, Node.js & CSS",
+      "description": "online examination system ",
+       "link": "View In Github"
     },
     {
       "id": "3",
