@@ -14,7 +14,7 @@ export default function HeroSection() {
           </p>
         </div>
         <a
-       href="mailto:ruthgaredew@gmail.com"
+       href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzQbffWkJkPDLRGCfzDlXLNPnMJM?compose=DmwnWrRpdTbGnwNmqdVHgxDBCKxFLHtMvvpVGRStcvdWJdjbVvSvWvRvhGGCzpMpngDFsNVfSpZl"
         className="navbar--content"
         target="_blank"
         rel="noreferrer"
