@@ -10,11 +10,11 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            Passionate About Crafting Exceptional Websites.
+            Passionate About Building dynamic web applications.
           </p>
         </div>
         <a
-        href="https://www.instagram.com/ruth_garedew"
+       href="mailto:ruthgaredew@gmail.com"
         className="navbar--content"
         target="_blank"
         rel="noreferrer"

@@ -1,14 +1,40 @@
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
+
 export default function ContactMe() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_avd259f", // Replace with your EmailJS service ID
+        "template_pvbz4sg", // Replace with your EmailJS template ID
+        form.current,
+        "0-scPjf620_2ZhajS"     // Replace with your EmailJS user ID
+      )
+      .then(
+        (result) => {
+          alert("Message sent successfully!");
+          console.log(result.text);
+        },
+        (error) => {
+          console.error("Error sending message:", error);
+          alert("Error sending message. Please try again.");
+        }
+      );
+  };
+
   return (
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-        </p>
+          Your Feedback is Valuable!        </p>
       </div>
-      <form className="contact--form--container">
+      <form ref={form} onSubmit={sendEmail} className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -41,7 +67,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">Phone Number</span>
             <input
               type="number"
               className="contact--input text-md"
@@ -51,13 +77,14 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
+        <label htmlFor="choose-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
+          <select id="choose-topic" name="topic" className="contact--input text-md">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>Order website </option>
+            <option>UI design</option>
+            <option>Maintenance</option>
+             <option>Testimonial</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">
@@ -65,16 +92,17 @@ export default function ContactMe() {
           <textarea
             className="contact--input text-md"
             id="message"
+            name="message"
             rows="8"
             placeholder="Type your message..."
+            required
           />
         </label>
-        <label htmlFor="checkboc" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label>
+
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" className="btn btn-primary contact--form--btn">
+            Submit
+          </button>
         </div>
       </form>
     </section>

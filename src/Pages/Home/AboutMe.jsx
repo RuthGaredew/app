@@ -6,25 +6,22 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <p className="section--title">About Me</p>
+          <h1 className="skills-section--heading">Hi, I'm Ruth Garedew!</h1>
           <p className="hero--section-description">
-            Hello! I'm Ruth Garedew, a Full-Stack Web Developer with experience
-            in a variety of technologies, including React, AngularJS, Next.js,
-            Tailwind CSS, Bootstrap, Express.js, Node.js, MongoDB, and MySQL.
+            I'm a Full Stack Developer who loves building websites. I work with the MERN stack, Angular, and databases like PostgreSQL and MySQL to create interactive web apps.
           </p>
+         
           <p className="hero--section-description">
-            I am passionate about learning new things and continuously improving
-            my skills. When I'm not coding, you can find me reading novels,
-            watching movies, or traveling with my family.
+            As a UI designer, I use Figma to design user-friendly interfaces. I enjoy solving problems creatively and making projects look great.
           </p>
+          
           <p className="hero--section-description">
-            As a hardworking team player, I thrive in collaborative environments
-            and easily adapt to new challenges. I love creating innovative
-            solutions and contributing to projects that make a difference.
+            I work well in teams and always strive to deliver high-quality work on time. I’m friendly, reliable, and eager to learn new things.
           </p>
+          
           <p className="hero--section-description">
-            Feel free to explore my portfolio and connect with me!
+            Outside of coding, I like exploring new tech, reading about design, and enjoying nature. Feel free to check out my portfolio and get in touch!
           </p>
         </div>
       </div>

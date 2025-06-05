@@ -59,26 +59,23 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "description": "Ruth played a crucial role in the development of our MVP. Their insight and technical skills were invaluable, and they delivered results that helped us secure funding. A true asset!",
+      "author_name": "Ermiyas Eshetu",
+      "author_designation": "Startup Founder"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "description": "Collaborating with Ruth was an absolute pleasure. Their problem-solving skills and innovative approach made a significant impact on our team’s success. I can’t recommend them enough!",
+      "author_name": "Fikirte Ayele",
+      "author_designation": " Colleague"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "description": "Collaborating with Ruth was a transformative experience for our marketing initiatives. Their ability to integrate technology with our marketing strategies resulted in increased engagement and conversions. [Your Name] not only delivered high-quality work but also contributed innovative ideas that elevated our campaigns. We can't wait to work together again!",
+      "author_name": "Yosef Tesfaye",
+      "author_designation": "Marketing Manager"
     }
   ]
 }
