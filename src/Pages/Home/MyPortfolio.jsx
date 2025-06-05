@@ -52,7 +52,7 @@ export default function MyPortfolio() {
               <p className="text-sm portfolio--link">
                 {item.link}
                 <a
-                href="https://github.com/RuthGaredew/"
+                href="https://github.com/RuthGaredew/RuthGaredew"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"

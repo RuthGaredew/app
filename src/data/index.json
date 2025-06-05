@@ -18,7 +18,7 @@
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "technology":"Wireframing, Prototyping, User Research",
+      "technology":"Wireframing, Prototyping using figma, User Research",
       "description": "Designed user-centered interfaces through user research and testing and Created wireframes and prototypes to effectively communicate design concepts."
     },
     {
@@ -35,7 +35,7 @@
       "src": "./img/placeholder-image.png",
       "title": "School App",
       "technology":"React, Express.js, Node.js & CSS",
-      "description": "school managment system ",
+      "description": "school app ",
        "link": "View In Github"
     },
     {
@@ -49,8 +49,9 @@
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "Strategic Planning System",
+      "technology":"React, Express.js, Node.js & CSS",
+      "description": "strategic planning system",
       "link": "View In Github"
     }
   ],
